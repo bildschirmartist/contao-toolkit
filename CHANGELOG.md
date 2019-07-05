@@ -17,6 +17,13 @@ Changelog
 
  - Fix css class for frontend modules
 
+[3.3.1] (2019-05-07)
+--------------------
+
+### Fixed
+
+ - Fix visibility of content elements
+
 [3.3.0] (2019-04-09)
 --------------------
 
@@ -114,7 +121,12 @@ Changelog
  - Added changelog (#9)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Unreleased]: https://github.com/netzmacht/contao-toolkit/compare/3.3.0...dev-develop
+=======
+[Unreleased]: https://github.com/netzmacht/contao-toolkit/compare/3.3.1...dev-master
+[3.3.1]: https://github.com/netzmacht/contao-toolkit/compare/3.3.0...3.3.1
+>>>>>>> master
 [3.3.0]: https://github.com/netzmacht/contao-toolkit/compare/3.2.0...3.3.0
 =======
 [Unreleased]: https://github.com/netzmacht/contao-toolkit/compare/3.2.0...hotfix/3.2.1
