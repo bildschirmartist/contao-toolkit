@@ -21,7 +21,6 @@ env:
   - CONTAO_VERSION=contao/core-bundle ~4.7.0
 
 matrix:
-  exclude:
   allow_failures:
     - php: "nightly"
     - php: "7.4snapshot"

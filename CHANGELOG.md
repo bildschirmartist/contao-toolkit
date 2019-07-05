@@ -13,6 +13,10 @@ Changelog
  - Adding `netzmacht.contao_toolkit.component.content_element_factory` and
    `netzmacht.contao_toolkit.component.frontend_module_factory` isn't required anymore 
 
+### Fixed
+
+ - Fix css class for frontend modules
+
 [3.3.0] (2019-04-09)
 --------------------
 
@@ -109,8 +113,12 @@ Changelog
  - Prevent error than no dca array is loaded (See [contao-leaflet-maps/issues/54](https://github.com/netzmacht/contao-leaflet-maps/issues/54)
  - Added changelog (#9)
 
+<<<<<<< HEAD
 [Unreleased]: https://github.com/netzmacht/contao-toolkit/compare/3.3.0...dev-develop
 [3.3.0]: https://github.com/netzmacht/contao-toolkit/compare/3.2.0...3.3.0
+=======
+[Unreleased]: https://github.com/netzmacht/contao-toolkit/compare/3.2.0...hotfix/3.2.1
+>>>>>>> hotfix/3.2.1
 [3.2.0]: https://github.com/netzmacht/contao-toolkit/compare/3.1.1...3.2.0
 [3.1.1]: https://github.com/netzmacht/contao-toolkit/compare/3.1.0...3.1.1
 [3.1.0]: https://github.com/netzmacht/contao-toolkit/compare/3.0.7...3.1.0
