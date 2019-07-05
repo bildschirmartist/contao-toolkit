@@ -7,9 +7,13 @@ Changelog
 ### Added
 
  - Add CsrfTokenProvider to simplify access to the request token
- 
+
 ### Changed
 
+ - Do not depend on constant TL_MODE to detect request scope. Use `RequestScopeMatcher` instead for components. Not
+   passing `RequestScopeMatcher` as constructor argument to components (content elements, modules) is deprecated now.
+ - Do not detect preview mode using BE_USER_LOGGED_IN constant. State has to be passed to the constructor for content 
+   elements. Deprecate not passing the `isPreviewMode` state as constructor argument.
  - Adding `netzmacht.contao_toolkit.component.content_element_factory` and
    `netzmacht.contao_toolkit.component.frontend_module_factory` isn't required anymore 
 
