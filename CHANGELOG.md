@@ -7,6 +7,7 @@ Changelog
 ### Added
 
  - Add CsrfTokenProvider to simplify access to the request token
+ - Add `Netzmacht\Contao\Toolkit\View\Assets\HtmlPageAssetsManager` interface which extends the AssetsManager
 
 ### Changed
 
@@ -15,7 +16,9 @@ Changelog
  - Do not detect preview mode using BE_USER_LOGGED_IN constant. State has to be passed to the constructor for content 
    elements. Deprecate not passing the `isPreviewMode` state as constructor argument.
  - Adding `netzmacht.contao_toolkit.component.content_element_factory` and
-   `netzmacht.contao_toolkit.component.frontend_module_factory` isn't required anymore 
+   `netzmacht.contao_toolkit.component.frontend_module_factory` isn't required anymore
+ - Service `netzmacht.contao_toolkit.assets_manager` has to implement 
+   `Netzmacht\Contao\Toolkit\View\Assets\HtmlPageAssetsManager` now.
 
 ### Fixed
 
